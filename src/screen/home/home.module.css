@@ -1,0 +1,70 @@
+.container{
+    height: auto;
+    width: 80%;
+    margin:auto;
+    padding-top: 20px;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background-color: rgba(202,208,225,0.8);
+    margin-top: -30px ;
+    z-index: 0;
+    padding-bottom: 10px
+}
+.popup{
+    position: absolute;
+    margin:auto;
+    top:-100%;
+    right:35%;
+    z-index: 1;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #04565D;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 8px 0px #888888;
+}
+.header_text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.create_input{
+    height: auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px
+}
+.tasks_header{
+    width: 85%;
+    height: 40px;
+    flex-direction: row;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between
+}
+.text_input{
+    width:85%;
+    border:none;
+    font-size: 16px;
+    color: black;
+    
+}
+.text_input::placeholder{
+    color: #afafaf
+}
+.text_input:focus{
+    outline: none
+}
